@@ -1,6 +1,4 @@
-# Krishna Khadka - Graduate Research Assistant
-
-Welcome to my GitHub website! I am a Graduate Research Assistant pursuing a PhD in Computer Science with a focus on Machine Learning and Big Data at The University of Texas at Arlington.
+Hello! I am a Graduate Research Assistant pursuing a PhD in Computer Science with a focus on Machine Learning and Software Testing at The University of Texas at Arlington.
 
 ## Education
 
