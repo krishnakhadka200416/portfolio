@@ -4,7 +4,7 @@ Hello! I am a Graduate Research Assistant pursuing a PhD in Computer Science wit
 
 **PhD in Computer Science**  
 The University of Texas at Arlington  
-*Spring 2022 – Fall 2025*  
+*Spring 2022 – Present*  
 GPA: 4.0
 
 **BS in Software Engineering**  
