@@ -1,4 +1,6 @@
-Hello! I am a Graduate Research Assistant pursuing a PhD in Computer Science with a focus on Machine Learning and Software Testing at The University of Texas at Arlington.
+# About Me
+
+Hello! I am a Graduate Research Assistant pursuing a PhD in Computer Science with a focus on Machine Learning and Software Testing at The University of Texas at Arlington. My research sits at the exciting intersection of these fields, where I explore approaches to synthetic data generation, hyperparameter optimization, and combinatorial testing to improve machine learning models.
 
 ## Education
 
@@ -33,6 +35,26 @@ GPA: 4.0
 *May 2021 - August 2021*  
 - Developed a mobile application using React Native, collaborating with a team using Agile methodology to enhance the company's digital presence.
 
+## Publications
+
+### 2024
+
+- **Assessing the Degree of Feature Interactions that Determine a Model Prediction**  
+  Khadka, K., Shree, S., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
+  *2024 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
+
+- **A Combinatorial Approach to Hyperparameter Optimization**  
+  Khadka, K., Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
+  *Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI.*  
+  - *Distinguished Paper Award Candidate*
+
+### 2023
+
+- **Synthetic Data Generation Using Combinatorial Testing and Variational Autoencoder**  
+  Khadka, K., Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
+  *2023 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
+
+
 ## Projects
 
 ### Synthetic Data Generation
@@ -43,14 +65,6 @@ GPA: 4.0
 
 ### Mobile Application Development
 - Designed and built a mobile application using React Native, integrating Google API and other technologies to create an interactive user interface.
-
-## Publications
-
-- **Khadka, K.,** Shree, S., Lei, Y., Kacker, R. N., & Kuhn, D. R. (2024). Assessing the Degree of Feature Interactions that Determine a Model Prediction. *2024 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
-
-- **Khadka, K.,** Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R. (2024). A Combinatorial Approach to Hyperparameter Optimization. *Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI.*
-
-- **Khadka, K.,** Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R. (2023). Synthetic Data Generation Using Combinatorial Testing and Variational Autoencoder. *2023 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
 
 ## Skills and Technologies
 
