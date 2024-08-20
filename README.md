@@ -1,4 +1,15 @@
-# About Me
+Welcome to my GitHub website!
+
+- [About Me](#about-me)
+- [Education](#education)
+- [Work Experience](#work-experience)
+- [Publications](#publications)
+- [Projects](#projects)
+- [Skills and Technologies](#skills-and-technologies)
+
+---
+
+## About Me
 
 Hello! I am a Graduate Research Assistant pursuing a PhD in Computer Science with a focus on Machine Learning and Software Testing at The University of Texas at Arlington. My research sits at the exciting intersection of these fields, where I explore approaches to synthetic data generation, hyperparameter optimization, and combinatorial testing to improve machine learning models.
 
@@ -18,7 +29,7 @@ GPA: 4.0
 
 ### Graduate Research Assistant  
 *May 2022 - Present*  
-- Leading research on synthetic data generation using Variational Autoencoder and Generative Adversarial Network techniques, integrated with combinatorial testing from software testing.
+- Conducting research on synthetic data generation using Variational Autoencoder and Generative Adversarial Network techniques, integrated with combinatorial testing from software testing.
 - Published research findings in multiple international conferences, contributing to the advancement of knowledge in the field.
 - Collaborated with fellow researchers to enhance team dynamics and drive impactful research.
 
@@ -53,7 +64,6 @@ GPA: 4.0
 - **Synthetic Data Generation Using Combinatorial Testing and Variational Autoencoder**  
   Khadka, K., Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
   *2023 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
-
 
 ## Projects
 
