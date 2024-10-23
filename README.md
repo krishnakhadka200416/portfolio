@@ -49,7 +49,10 @@ GPA: 4.0
 ## Publications
 
 ### 2024
-
+- **Constructing Surrogate Models in Machine Learning Using Combinatorial Testing and Active Learning**
+  Shree, S., Khadka, K., Lei, Y., Kacker, R. N., & Kuhn, D. R.
+  *39th IEEE/ACM International Conference on Automated Software Engineering*
+  
 - **Assessing the Degree of Feature Interactions that Determine a Model Prediction**  
   Khadka, K., Shree, S., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
   *2024 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
