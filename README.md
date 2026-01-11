@@ -1,86 +1,116 @@
-Welcome to my GitHub website!
+Welcome to my portfolio!
 
 - [About Me](#about-me)
+- [Research Interests](#research-interests)
 - [Education](#education)
-- [Work Experience](#work-experience)
 - [Publications](#publications)
-- [Projects](#projects)
-- [Skills and Technologies](#skills-and-technologies)
+- [Experience](#experience)
+- [Technical Skills](#technical-skills)
+- [Honors & Awards](#honors--awards)
 
 ---
 
 ## About Me
 
-Hello! I am a Graduate Research Assistant pursuing a PhD in Computer Science with a focus on Machine Learning and Software Testing at The University of Texas at Arlington. My research sits at the exciting intersection of these fields, where I explore approaches to synthetic data generation, hyperparameter optimization, and combinatorial testing to improve machine learning models.
+Hello! I am a PhD candidate in Machine Learning at The University of Texas at Arlington with 6 first-authored publications (46+ citations) in top-tier venues including KDD and ASE. My research focuses on explainable AI, adversarial robustness, and trustworthy ML systems, conducted in collaboration with NIST. I am also the co-founder of Bhasha Tech, an AI-powered language learning platform serving 50,000+ users across 130+ countries. I combine deep research expertise with proven ability to build and scale real-world ML products.
+
+## Research Interests
+
+Explainable AI (XAI), Trustworthy Machine Learning, Adversarial Robustness, Combinatorial Testing for ML, Synthetic Data Generation, Deep Learning Interpretability
 
 ## Education
 
-**PhD in Computer Science**  
-The University of Texas at Arlington  
-*Spring 2022 – Present*  
-GPA: 4.0
+**Ph.D. in Computer Science -- Machine Learning and Artificial Intelligence**
+The University of Texas at Arlington
+*Expected August 2026*
+GPA: 4.0/4.0
 
-**BS in Software Engineering**  
-The University of Texas at Arlington  
-*Graduated Fall 2021*  
-GPA: 4.0
-
-## Work Experience
-
-### Graduate Research Assistant  
-*May 2022 - Present*  
-- Conducting research on synthetic data generation using Variational Autoencoder and Generative Adversarial Network techniques, integrated with combinatorial testing from software testing.
-- Published research findings in multiple international conferences, contributing to the advancement of knowledge in the field.
-- Collaborated with fellow researchers to enhance team dynamics and drive impactful research.
-
-### Graduate Teaching Assistant - Software Testing and Maintenance  
-*January 2022 - May 2022*  
-- Prepared and delivered comprehensive lectures, developed course content, and guided students through complex software testing methodologies.
-
-### Machine Learning Software Developer Intern - State Farm  
-*January 2021 - August 2021*  
-- Designed and developed a system to generate health scores for insurance customers using Machine Learning on data from the Fitbit API.
-- Improved model prediction accuracy significantly through the use of Generative Adversarial Networks.
-
-### Mobile Application Software Intern - Trimega  
-*May 2021 - August 2021*  
-- Developed a mobile application using React Native, collaborating with a team using Agile methodology to enhance the company's digital presence.
+**B.S. in Software Engineering**
+The University of Texas at Arlington
+*Graduated Fall 2021*
+GPA: 4.0/4.0 (Summa Cum Laude)
 
 ## Publications
 
+*6 peer-reviewed papers, 46+ citations*
+
+### 2026
+
+- **ABLE: Adversarial Boundary Local Explanations for ML Predictions**
+  K. Khadka, S. Shree, P. Budhathoki, Y. Lei, R. Kacker, D.R. Kuhn
+  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2026* **(Top-tier)**
+  Achieved state-of-the-art fidelity on local explanations using novel adversarial bracketing technique
+
+- **A Combinatorial Approach to Synthetic Data Generation for ML**
+  K. Khadka, J. Chandrasekaran, Y. Lei, R. Kacker, D.R. Kuhn
+  *SN Computer Science*, vol. 7, no. 59, 2026
+
 ### 2024
-- **Constructing Surrogate Models in Machine Learning Using Combinatorial Testing and Active Learning**  
-  Shree, S., Khadka, K., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
-  *39th IEEE/ACM International Conference on Automated Software Engineering*
 
-- **Assessing the Degree of Feature Interactions that Determine a Model Prediction**  
-  Khadka, K., Shree, S., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
-  *2024 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
+- **Constructing Surrogate Models Using Combinatorial Testing**
+  S. Shree, K. Khadka, Y. Lei, R.N. Kacker, D.R. Kuhn
+  *39th IEEE/ACM International Conference on Automated Software Engineering* **(Top-tier)**
 
-- **A Combinatorial Approach to Hyperparameter Optimization**  
-  Khadka, K., Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
-  *Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI.*  
-  - *Distinguished Paper Award Candidate*
+- **A Combinatorial Approach to Hyperparameter Optimization** -- *Distinguished Paper Award Candidate*
+  K. Khadka, J. Chandrasekaran, Y. Lei, R.N. Kacker, D.R. Kuhn
+  *IEEE/ACM 3rd International Conference on AI Engineering*, 22 citations
+
+- **Assessing Feature Interactions in Model Predictions**
+  K. Khadka, S. Shree, Y. Lei, R.N. Kacker, D.R. Kuhn
+  *IEEE International Conference on Software Testing, Verification and Validation Workshops*, 5 citations
 
 ### 2023
 
-- **Synthetic Data Generation Using Combinatorial Testing and Variational Autoencoder**  
-  Khadka, K., Chandrasekaran, J., Lei, Y., Kacker, R. N., & Kuhn, D. R.  
-  *2023 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW).*
+- **Synthetic Data Generation Using Combinatorial Testing and VAE**
+  K. Khadka, J. Chandrasekaran, Y. Lei, R.N. Kacker, D.R. Kuhn
+  *IEEE International Conference on Software Testing, Verification and Validation Workshops*, 16 citations
 
-## Projects
+## Experience
 
-### Synthetic Data Generation
-- Research project focused on generating synthetic data using combinatorial testing and Variational Autoencoder techniques, aimed at improving data availability for training machine learning models.
+### Co-Founder & CTO
+**Bhasha Tech, Inc. -- Bhasha Language Learning App**
+*January 2025 -- Present | Dallas, TX*
+- Co-founded and launched **Bhasha**, an AI-powered language learning platform serving **50,000+ users across 130+ countries**
+- Architected and deployed **iOS and Android applications** leveraging Large Language Models for personalized language instruction and adaptive learning paths
+- Built end-to-end ML pipeline for speech recognition, pronunciation feedback, and conversational AI tutoring
+- Scaled platform infrastructure to handle rapid user growth while maintaining low latency and high availability
 
-### Health Score Prediction System
-- Developed a system for State Farm to predict health scores using Machine Learning and cloud-based infrastructure, significantly improving model accuracy.
+### Guest Lecturer -- Introduction to Machine Learning
+**Winston-Salem State University**
+*November 2025 | Winston-Salem, NC*
+- Delivered a **2-week lecture series** on Introduction to Machine Learning for undergraduate students
+- Covered foundational ML concepts including supervised/unsupervised learning, neural networks, and practical applications
 
-### Mobile Application Development
-- Designed and built a mobile application using React Native, integrating Google API and other technologies to create an interactive user interface.
+### Graduate Research Assistant
+**The University of Texas at Arlington**
+*May 2022 -- Present | Arlington, TX*
+- Leading research on **Explainable AI** methods, developing novel techniques for interpreting deep learning model predictions with applications to CNNs and Vision Transformers
+- Pioneered **ABLE** (Adversarial Boundary Local Explanations), a novel method using adversarial pairs to construct interpretable local surrogate models -- accepted to **KDD 2026**
+- Developed combinatorial testing approaches for **synthetic data generation** using VAEs and GANs, improving data diversity while maintaining distributional fidelity
+- Collaborating with **NIST** researchers (Dr. Rick Kuhn, Dr. Raghu Kacker) on AI standards and trustworthy ML systems
 
-## Skills and Technologies
+### Graduate Teaching Assistant -- Software Testing
+**The University of Texas at Arlington**
+*January 2022 -- May 2022 | Arlington, TX*
+- Delivered lectures on software testing methodologies, including static analysis (SonarQube) and automation (Selenium)
+- Mentored 40+ students on testing frameworks, code quality, and CI/CD best practices
 
-- **Languages:** Python, R, C, C++, Java, JavaScript, SQL, HTML, CSS
-- **Libraries/Frameworks:** TensorFlow, PyTorch, scikit-learn, React Native, Docker, AWS
-- **Tools:** Git, MATLAB, Tableau, Tricentis Tosca
+### Machine Learning Software Developer Intern
+**State Farm -- Life Fit Project**
+*January 2021 -- August 2021 | Richardson, TX*
+- Designed ML pipeline generating health risk scores using **K-Means clustering** on Fitbit API data for insurance underwriting
+- Improved model accuracy from 78% to **93%** by implementing **GAN-based data augmentation** for imbalanced classes
+- Deployed scalable backend using **AWS** (Lambda, SageMaker, EC2, S3, Cognito) serving 10K+ daily predictions
+
+## Technical Skills
+
+- **Machine Learning:** PyTorch, TensorFlow, scikit-learn, XGBoost, Transformers, CNNs, GANs, VAEs, SHAP, LIME
+- **Programming:** Python, R, C/C++, Java, JavaScript, SQL, Shell Scripting
+- **Cloud & MLOps:** AWS (SageMaker, Lambda, EC2, S3), Docker, Git, MLflow, Weights & Biases
+- **Data & Visualization:** Pandas, NumPy, Matplotlib, Seaborn, Tableau, MySQL, PostgreSQL
+
+## Honors & Awards
+
+- **Distinguished Paper Award Candidate** -- IEEE/ACM CAIN 2024
+- **MavPitch Competition Winner** -- $15,000 Award (2025)
+- **Summa Cum Laude** -- B.S. Software Engineering, UTA (2021)
