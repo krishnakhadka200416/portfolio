@@ -84,10 +84,10 @@ GPA: 4.0/4.0 (Summa Cum Laude)
 ### Co-Founder & CTO
 **Bhasha Tech, Inc. -- Bhasha Language Learning App**
 *January 2025 -- Present | Dallas, TX*
-- Co-founded and launched **Bhasha**, an AI-powered language learning platform serving **50,000+ users across 130+ countries**
-- Architected and deployed **iOS and Android applications** leveraging Large Language Models for personalized language instruction and adaptive learning paths
-- Built end-to-end ML pipeline for speech recognition, pronunciation feedback, and conversational AI tutoring
-- Scaled platform infrastructure to handle rapid user growth while maintaining low latency and high availability
+- Co-founded and launched **Bhasha**, an AI-powered language learning platform now serving **50,000+ users across 130+ countries**
+- Shipped the **iOS and Android apps**, with LLM-driven personalized instruction and adaptive learning paths
+- Built the end-to-end ML pipeline for **speech recognition, pronunciation feedback, and conversational AI tutoring**
+- Operated production infrastructure across LLM, speech-recognition, and chat services, holding response latency steady as the user base scaled past 50k
 
 ### Guest Lecturer -- Introduction to Machine Learning
 **Winston-Salem State University**
@@ -98,10 +98,10 @@ GPA: 4.0/4.0 (Summa Cum Laude)
 ### Graduate Research Assistant
 **The University of Texas at Arlington**
 *May 2022 -- Present | Arlington, TX*
-- Leading research on **Explainable AI** methods, developing novel techniques for interpreting deep learning model predictions with applications to CNNs and Vision Transformers
-- Pioneered **ABLE** (Adversarial Boundary Local Explanations), a novel method using adversarial pairs to construct interpretable local surrogate models -- accepted to **KDD 2026**
-- Developed combinatorial testing approaches for **synthetic data generation** using VAEs and GANs, improving data diversity while maintaining distributional fidelity
-- Collaborating with **NIST** researchers (Dr. Rick Kuhn, Dr. Raghu Kacker) on AI standards and trustworthy ML systems
+- Pioneered **ABLE** (Adversarial Boundary Local Explanations), constructing local surrogate models from adversarial pairs to improve fidelity over LIME/SHAP baselines -- accepted to **KDD 2026**
+- Designed **DD-CAM**, a delta-debugging procedure that extracts minimal sufficient pixel sets driving CNN and Vision Transformer predictions (arXiv 2026)
+- Developed combinatorial testing approaches for **synthetic data generation** using VAEs and GANs, improving data diversity while maintaining distributional fidelity (**ICSTW 2023**, **SN Computer Science 2026**); co-authored **TabKD** for tabular knowledge distillation via interaction diversity across learned feature bins (**IJCAI 2026**)
+- Collaborating with **NIST** researchers (Dr. Rick Kuhn, Dr. Raghu Kacker) on integrating combinatorial testing into AI standards and trustworthy-ML guidance
 
 ### Graduate Teaching Assistant -- Software Testing
 **The University of Texas at Arlington**
@@ -125,6 +125,8 @@ GPA: 4.0/4.0 (Summa Cum Laude)
 
 ## Honors & Awards
 
-- **Distinguished Paper Award Candidate** -- IEEE/ACM CAIN 2024
+- **Hesed Endowed Scholarship Fund Award** -- UTA College of Engineering (2026)
+- **Cyneta Networks Outstanding Graduate Teaching Assistant Award** -- UTA College of Engineering (2026)
 - **MavPitch Competition Winner** -- $15,000 Award (2025)
+- **Distinguished Paper Award Candidate** -- IEEE/ACM CAIN 2024
 - **Summa Cum Laude** -- B.S. Software Engineering, UTA (2021)
