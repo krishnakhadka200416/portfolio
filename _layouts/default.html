@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}{% if page.title %} — {{ page.title }}{% endif %}</title>
+  <title>{{ site.title }}{% if page.title %} &middot; {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="icon" href="{{ '/img.jpg' | relative_url }}">
 
@@ -12,45 +12,82 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <noscript>
+    <style>
+      body.deck-mode { overflow: auto !important; height: auto !important; }
+      .deck-controls { display: none !important; }
+      .deck-track { display: block !important; transform: none !important; }
+      .slide { width: 100% !important; height: auto !important; flex: none !important; overflow: visible !important; }
+      .source-content { display: block !important; padding: 4rem 2rem; max-width: 1080px; margin: 0 auto; }
+      .source-content[hidden] { display: block !important; }
+    </style>
+  </noscript>
 </head>
-<body>
+<body class="deck-mode">
   <div class="noise" aria-hidden="true"></div>
 
-  <div class="shell">
-    <header class="masthead">
-      <div class="meta-row">
-        <span class="meta-pill"><span class="dot"></span>Available for collaboration</span>
-        <span class="meta-pill mono">{{ site.address }} · {{ 'now' | date: '%Y' }}</span>
+  <div class="deck">
+    <header class="deck-head">
+      <div class="brand">
+        <span class="brand-mark">KK.</span>
+        <span class="brand-name">{{ site.title }}</span>
       </div>
-
-      <div class="hero">
-        {% if site.logo %}
-        <div class="portrait">
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
-        </div>
-        {% endif %}
-        <div class="hero-text">
-          <h1 class="display">{{ site.title }}</h1>
-          <p class="tagline">{{ site.description }}</p>
-        </div>
+      <div class="deck-meta">
+        <span class="status"><span class="dot"></span>Online</span>
+        <span class="counter"><span id="cur">01</span> <span class="sep">/</span> <span id="tot">01</span></span>
+        <span class="section-name" id="sname">Profile</span>
       </div>
-
-      <nav class="contact-nav" aria-label="Contact links">
-        {% if site.email %}<a href="mailto:{{ site.email }}" class="contact-link">Email<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
-        {% if site.github %}<a href="{{ site.github }}" target="_blank" rel="noopener" class="contact-link">GitHub<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
-        {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener" class="contact-link">LinkedIn<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
-        {% if site.googlescholar %}<a href="{{ site.googlescholar }}" target="_blank" rel="noopener" class="contact-link">Scholar<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
-      </nav>
     </header>
 
-    <main class="content">
-      {{ content }}
+    <main class="deck-viewport">
+      <div class="deck-track" id="track">
+        <section class="slide slide-hero active" data-label="Profile">
+          <div class="slide-frame">
+            <div class="slide-label mono">Sect 01 &mdash; Profile</div>
+
+            <div class="hero-grid">
+              {% if site.logo %}
+              <div class="hero-portrait">
+                <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+              </div>
+              {% endif %}
+              <div class="hero-meta mono">
+                <div><span class="lbl">Role</span><span>PhD Candidate, ML &amp; AI</span></div>
+                <div><span class="lbl">Loc</span><span>{{ site.address }}</span></div>
+                <div><span class="lbl">Year</span><span>{{ 'now' | date: '%Y' }}</span></div>
+              </div>
+            </div>
+
+            <h1 class="display">{{ site.title }}.</h1>
+            <p class="tagline">{{ site.description }}</p>
+
+            <nav class="hero-links" aria-label="Contact">
+              {% if site.email %}<a href="mailto:{{ site.email }}">Email<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
+              {% if site.github %}<a href="{{ site.github }}" target="_blank" rel="noopener">GitHub<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
+              {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
+              {% if site.googlescholar %}<a href="{{ site.googlescholar }}" target="_blank" rel="noopener">Scholar<span class="arr" aria-hidden="true">&#8599;</span></a>{% endif %}
+            </nav>
+
+            <div class="hero-hint mono">
+              <span class="key">&#8592;</span> <span class="key">&#8594;</span> &nbsp;to navigate &nbsp;&middot;&nbsp; swipe on touch
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="source-content" id="src" hidden>
+        {{ content }}
+      </div>
     </main>
 
-    <footer class="site-foot">
-      <span class="mono">&copy; {{ 'now' | date: '%Y' }} {{ site.title }}</span>
-      <span class="mono">Built with Jekyll &middot; Hosted on GitHub Pages</span>
-    </footer>
+    <nav class="deck-controls" aria-label="Slide controls">
+      <button class="ctrl prev" id="prev" aria-label="Previous slide">&#8592;</button>
+      <div class="dots" id="dots"></div>
+      <button class="ctrl next" id="next" aria-label="Next slide">&#8594;</button>
+    </nav>
   </div>
+
+  <script src="{{ '/assets/js/deck.js' | relative_url }}" defer></script>
 </body>
 </html>
