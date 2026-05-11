@@ -12,7 +12,7 @@ Welcome to my portfolio!
 
 ## About Me
 
-Hello! I am a PhD candidate in Machine Learning at The University of Texas at Arlington with 6 first-authored publications (46+ citations) in top-tier venues including KDD and ASE. My research focuses on explainable AI, adversarial robustness, and trustworthy ML systems, conducted in collaboration with NIST. I am also the co-founder of Bhasha Tech, an AI-powered language learning platform serving 50,000+ users across 130+ countries. I combine deep research expertise with proven ability to build and scale real-world ML products.
+Hello! I am a PhD candidate in Machine Learning at The University of Texas at Arlington with 6 first-authored publications and 8 total publications (58+ citations) in top-tier venues including KDD, IJCAI, and ASE. My research focuses on explainable AI, adversarial robustness, and trustworthy ML systems, conducted in collaboration with NIST. I am also the co-founder of Bhasha Tech, an AI-powered language learning platform serving 50,000+ users across 130+ countries. I combine deep research expertise with proven ability to build and scale real-world ML products.
 
 ## Research Interests
 
@@ -32,38 +32,46 @@ GPA: 4.0/4.0 (Summa Cum Laude)
 
 ## Publications
 
-*6 peer-reviewed papers, 46+ citations*
+*8 publications, 58+ citations*
 
 ### 2026
 
-- **ABLE: Adversarial Boundary Local Explanations for ML Predictions**
+- **TabKD: Tabular Knowledge Distillation through Interaction Diversity of Learned Feature Bins**
+  S.N. Pereira, K. Khadka, Y. Lei
+  *International Joint Conference on Artificial Intelligence (IJCAI) 2026* **(Top-tier)**
+
+- **ABLE: Using Adversarial Pairs to Construct Local Models for Explaining Model Predictions**
   K. Khadka, S. Shree, P. Budhathoki, Y. Lei, R. Kacker, D.R. Kuhn
-  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2026* **(Top-tier)**
+  *32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2026* **(Top-tier)**
   Achieved state-of-the-art fidelity on local explanations using novel adversarial bracketing technique
 
-- **A Combinatorial Approach to Synthetic Data Generation for ML**
+- **A Combinatorial Approach to Synthetic Data Generation for Machine Learning**
   K. Khadka, J. Chandrasekaran, Y. Lei, R. Kacker, D.R. Kuhn
   *SN Computer Science*, vol. 7, no. 59, 2026
 
+- **DD-CAM: Minimal Sufficient Explanations for Vision Models Using Delta Debugging**
+  K. Khadka, Y. Lei, R.N. Kacker, D.R. Kuhn
+  *arXiv preprint arXiv:2602.19274, 2026*
+
 ### 2024
 
-- **Constructing Surrogate Models Using Combinatorial Testing**
+- **Constructing Surrogate Models in Machine Learning Using Combinatorial Testing and Active Learning**
   S. Shree, K. Khadka, Y. Lei, R.N. Kacker, D.R. Kuhn
-  *39th IEEE/ACM International Conference on Automated Software Engineering* **(Top-tier)**
+  *39th IEEE/ACM International Conference on Automated Software Engineering* **(Top-tier)**, 6 citations
 
 - **A Combinatorial Approach to Hyperparameter Optimization** -- *Distinguished Paper Award Candidate*
   K. Khadka, J. Chandrasekaran, Y. Lei, R.N. Kacker, D.R. Kuhn
-  *IEEE/ACM 3rd International Conference on AI Engineering*, 22 citations
+  *IEEE/ACM 3rd International Conference on AI Engineering*, 25 citations
 
-- **Assessing Feature Interactions in Model Predictions**
+- **Assessing the Degree of Feature Interactions that Determine a Model Prediction**
   K. Khadka, S. Shree, Y. Lei, R.N. Kacker, D.R. Kuhn
-  *IEEE International Conference on Software Testing, Verification and Validation Workshops*, 5 citations
+  *IEEE International Conference on Software Testing, Verification and Validation Workshops*, 7 citations
 
 ### 2023
 
-- **Synthetic Data Generation Using Combinatorial Testing and VAE**
+- **Synthetic Data Generation Using Combinatorial Testing and Variational Autoencoder**
   K. Khadka, J. Chandrasekaran, Y. Lei, R.N. Kacker, D.R. Kuhn
-  *IEEE International Conference on Software Testing, Verification and Validation Workshops*, 16 citations
+  *IEEE International Conference on Software Testing, Verification and Validation Workshops*, 18 citations
 
 ## Experience
 
