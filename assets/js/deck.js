@@ -90,24 +90,48 @@
     slides[t].scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // Track active slide via IntersectionObserver
-  const observer = new IntersectionObserver((entries) => {
-    let best = null;
+  // Mark slides as "seen" the first time they enter the viewport — keeps the
+  // reveal animation but never hides content once shown. Low threshold so tall
+  // slides (e.g. Experience) trigger as soon as any part is visible.
+  slides[0].classList.add('seen');
+  const seenObserver = new IntersectionObserver((entries) => {
     entries.forEach((e) => {
-      if (e.isIntersecting && (!best || e.intersectionRatio > best.intersectionRatio)) {
-        best = e;
+      if (e.isIntersecting) {
+        e.target.classList.add('seen');
+        seenObserver.unobserve(e.target);
       }
     });
-    if (best && best.intersectionRatio >= 0.4) {
-      const idx = slides.indexOf(best.target);
-      if (idx >= 0) setActive(idx);
-    }
   }, {
     root: viewport,
-    threshold: [0.25, 0.5, 0.75]
+    threshold: 0.05
   });
 
-  slides.forEach((s) => observer.observe(s));
+  slides.forEach((s) => seenObserver.observe(s));
+
+  // Track active slide by scroll position — robust for slides taller than the
+  // viewport (which can never reach a high intersectionRatio).
+  let rafScheduled = false;
+  function scheduleActiveUpdate() {
+    if (rafScheduled) return;
+    rafScheduled = true;
+    requestAnimationFrame(() => {
+      rafScheduled = false;
+      const scrollTop = viewport.scrollTop;
+      const probe = scrollTop + viewport.clientHeight * 0.25;
+      let activeI = 0;
+      for (let i = 0; i < slides.length; i++) {
+        if (slides[i].offsetTop <= probe) {
+          activeI = i;
+        } else {
+          break;
+        }
+      }
+      setActive(activeI);
+    });
+  }
+
+  viewport.addEventListener('scroll', scheduleActiveUpdate, { passive: true });
+  window.addEventListener('resize', scheduleActiveUpdate);
 
   // Initial hash routing
   function initFromHash() {

@@ -286,18 +286,18 @@ body.deck-mode {
               transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.slide.active .slide-frame > * {
+.slide.seen .slide-frame > * {
   opacity: 1;
   transform: translateY(0);
 }
 
-.slide.active .slide-frame > *:nth-child(1) { transition-delay: 0.15s; }
-.slide.active .slide-frame > *:nth-child(2) { transition-delay: 0.25s; }
-.slide.active .slide-frame > *:nth-child(3) { transition-delay: 0.33s; }
-.slide.active .slide-frame > *:nth-child(4) { transition-delay: 0.40s; }
-.slide.active .slide-frame > *:nth-child(5) { transition-delay: 0.46s; }
-.slide.active .slide-frame > *:nth-child(6) { transition-delay: 0.52s; }
-.slide.active .slide-frame > *:nth-child(n+7) { transition-delay: 0.58s; }
+.slide.seen .slide-frame > *:nth-child(1) { transition-delay: 0.10s; }
+.slide.seen .slide-frame > *:nth-child(2) { transition-delay: 0.18s; }
+.slide.seen .slide-frame > *:nth-child(3) { transition-delay: 0.24s; }
+.slide.seen .slide-frame > *:nth-child(4) { transition-delay: 0.30s; }
+.slide.seen .slide-frame > *:nth-child(5) { transition-delay: 0.36s; }
+.slide.seen .slide-frame > *:nth-child(6) { transition-delay: 0.42s; }
+.slide.seen .slide-frame > *:nth-child(n+7) { transition-delay: 0.46s; }
 
 /* === Hero slide === */
 .hero-grid {
