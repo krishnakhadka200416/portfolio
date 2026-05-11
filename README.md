@@ -22,7 +22,7 @@ My research sits at the intersection of explainable AI, trustworthy ML, and comb
 - **Knowledge Distillation & Tabular ML** -- Compact distillation of complex models using interaction diversity over learned feature bins (TabKD, IJCAI 2026)
 - **Combinatorial Methods for ML** -- Applying combinatorial testing to hyperparameter optimization (CAIN 2024) and surrogate model construction with active learning (ASE 2024)
 - **Synthetic Data Generation** -- Combining combinatorial testing with VAEs and generative models to produce diverse, distribution-faithful training data (ICSTW 2023; SN Computer Science 2026)
-- **Adversarial Robustness & Trustworthy ML** -- Probing and hardening ML systems for safety-critical deployment, in collaboration with NIST
+- **Adversarial Robustness & Trustworthy ML** -- Probing and hardening ML systems for safety-critical deployment
 
 ## Education
 
