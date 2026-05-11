@@ -240,7 +240,7 @@ body.deck-mode {
   flex: 1;
   overflow-y: scroll;
   overflow-x: hidden;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
   scrollbar-width: none;
   position: relative;
@@ -457,13 +457,48 @@ body.deck-mode {
 .slide-content h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
   letter-spacing: -0.005em;
-  margin: 2.25rem 0 0.5rem;
+  margin: 3.25rem 0 0.4rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--line);
   color: var(--ink);
 }
 
-.slide-content h3:first-of-type { margin-top: 0; }
+.slide-content h3:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+/* Role / org / date meta line that follows an h3 in Experience */
+.slide-content h3 + p {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 0.35rem 0 1.5rem;
+  line-height: 1.65;
+}
+
+.slide-content h3 + p strong {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+
+.slide-content h3 + p em {
+  display: block;
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
 .slide-content h4 {
   font-family: 'Inter', sans-serif;
