@@ -5,6 +5,7 @@ Welcome to my portfolio!
 - [Education](#education)
 - [Publications](#publications)
 - [Experience](#experience)
+- [Academic Service](#academic-service)
 - [Technical Skills](#technical-skills)
 - [Honors & Awards](#honors--awards)
 
@@ -130,6 +131,14 @@ GPA: 4.0/4.0 (Summa Cum Laude)
 - Designed an ML pipeline generating health risk scores using **K-Means clustering** on Fitbit API data for insurance underwriting
 - Improved model accuracy from 78% to **93%** by implementing **GAN-based data augmentation** for imbalanced classes
 - Deployed a scalable backend using **AWS** (Lambda, SageMaker, EC2, S3, Cognito) serving 10K+ daily predictions
+
+## Academic Service
+
+- **KDD 2025** — Reviewer
+- **IJCAI 2026** — Reviewer
+- **ANTIC 2025** — Reviewer
+- **AAAI 2027** — Additional Reviewer *(review completed in 2026)*
+- **USENIX Security 2027** — Reviewer, Cycle 1 *(review completed in 2026)*
 
 ## Technical Skills
 
