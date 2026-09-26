@@ -134,11 +134,11 @@ GPA: 4.0/4.0 (Summa Cum Laude)
 
 ## Academic Service
 
-- **KDD 2025** — Reviewer
-- **IJCAI 2026** — Reviewer
-- **ANTIC 2025** — Reviewer
-- **AAAI 2027** — Additional Reviewer *(review completed in 2026)*
-- **USENIX Security 2027** — Reviewer, Cycle 1 *(review completed in 2026)*
+- **KDD 2025**: Reviewer
+- **IJCAI 2026**: Reviewer
+- **ANTIC 2025**: Reviewer
+- **AAAI 2027**: Additional Reviewer *(review completed in 2026)*
+- **USENIX Security 2027**: Reviewer, Cycle 1 *(review completed in 2026)*
 
 ## Technical Skills
 
